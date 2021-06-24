@@ -150,7 +150,7 @@ button {
 
 .third {
     background: linear-gradient(#373b44, #aa4b6b);
-    height: 70vh;
+    height: 80vh;
     width: 100%;
 }
 
@@ -203,5 +203,53 @@ footer{
     align-items: center;
 }
 
+@media only screen and (max-width: 980px){
+   .third {
+    background: linear-gradient(#373b44, #aa4b6b);
+    height: 100vh;
+    width: 100%;
+   }
+
+   .second {
+    height: 170vh;
+    width: 100%;
+    background: linear-gradient(#1565c0, #373b44);
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .phones {
+        display: none;
+    }
+
+    .second {
+        height: 240vh;
+    }
+
+    .third-text {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .third-text h3, .third-text span {
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: .1em;
+        font-size: 25px;
+        padding: 50px;
+        text-shadow: 3px 2px #111;
+        word-wrap: initial;
+    }
+    
+    .third-text span {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .third {
+        height: 60vh;
+    }
+
+}
 
 
