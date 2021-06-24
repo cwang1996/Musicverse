@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='styles.css'>
+    <title>Music</title>
+</head>
+<body>
+<div class='topnavbar'>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Sign Up</li>
+        <li>Log In</li>
+    </ul>
+</div>
+
+<section class='first'>
+    <div class='container'>
+        <h1>Musicverse</h1>
+        <div class='musicplayer'>
+        <img id='playicon' onclick = 'playAudio()' src='/images/play2.png' alt='play image'>
+        <img id='pauseicon' onclick = 'pauseAudio()' src='/images/pause2.png' alt='pause button'>
+        </div>
+    </div>
+</section>
+    
+<section class='second'>
+    <div class='second-title'>
+        <h2>Millions of songs, zero ads</h2>
+    </div>
+
+    <div class='plans'>
+        <article class='free'>
+            <div class='header'>
+                <h3>Free</h3>
+                <button class='free-btn' type='button'>Sign up for free</button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </article>
+
+        <article class='plus'>
+            <div class='header'>
+                <h3>Plus</h3>
+                <button class='plus-btn' type='button'>Get 30 days for free</button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </article>
+
+        <article class='premium'>
+            <div class='header'>
+                <h3>Premium</h3>
+                <button class='premium-btn' type='button'>Get 60 days for free</button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </article>
+    </div>
+
+    <p class='second-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+</section>
+
+<section class='third'>
+    <div class='third-container'>
+        <img class='phones' src='https://web-cdn.pandora.com/web-client-assets/images/device_plus_premium.655bbf1a445a163f08ff111f145da754.png' alt='phones'>
+        <div class='third-text'>
+        <h3>Take your music with you on the go!</h3>
+        <span>Listen to Pandora on mobile devices, desktop, TV, Apple Watch, using voice assistants, or in the car.</span>        
+        <div class='applegoogle'>
+            <img src='https://web-cdn.pandora.com/web-client-assets/images/landing_get_it_from_apple.c7d1d5c41ea93d50b9b07136066c875d.png' alt='apple'>
+            <img src='https://web-cdn.pandora.com/web-client-assets/images/landing_get_it_from_google.26fba32f66992fcc6a8847f5988f1d72.png' alt='google'>
+        </div>
+    </div>
+    </div>
+</section>
+
+<footer>
+    <ul>
+        <li><a href="https://cwang1996.github.io/30Websites30Days/" target="_blank">30 Websites 30 Days Homepage</a></li>
+    </ul>    
+</footer>
+
+<audio id='mySong'>
+    <source src='aespa.mp3' type='audio/mp3'>
+</audio>
+
+<script src='app.js'></script>
+
+</body>
+</html>
